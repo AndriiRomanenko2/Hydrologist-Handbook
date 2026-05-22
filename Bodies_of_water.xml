@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Hydrologist>
+	<Rivers>
+		<River name="Амазонка" length="6992" flow="6590" area="7050000" flowsInto="Атлантичний океан" imagePath ="Images\Rivers\amazon.jpg"/>
+		<River name="Ніл" length="6650" flow="84" area="3400000" flowsInto="Середземне море" imagePath="Images\Rivers\nile.jpg"/>
+		<River name="Янцзи" length="6300" flow="992" area="1800000" flowsInto="Східно-Китайське море" imagePath="Images\Rivers\yangtze.jpg"/>
+		<River name="Міссісіпі" length="3730" flow="593" area="3200000" flowsInto="Мексиканська затока" imagePath="Images\Rivers\mississippi.jpg"/>
+		<River name="Єнісей" length="3487" flow="624" area="2580000" flowsInto="Карське море" imagePath="Images\Rivers\yenisei.jpg"/>
+		<River name="Об" length="3650" flow="400" area="2990000" flowsInto="Карське море" imagePath="Images\Rivers\ob.jpg"/>
+		<River name="Хуанхе" length="5464" flow="58" area="752000" flowsInto="Жовте море" imagePath="Images\Rivers\huanghe.jpg"/>
+		<River name="Амур" length="2824" flow="350" area="1855000" flowsInto="Охотське море" imagePath="Images\Rivers\amur.jpg"/>
+		<River name="Лена" length="4400" flow="540" area="2490000" flowsInto="Море Лаптєвих" imagePath="Images\Rivers\lena.jpg"/>
+		<River name="Конго" length="4700" flow="1300" area="3680000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\congo.jpg"/>
+		<River name="Меконг" length="4350" flow="475" area="795000" flowsInto="Південно-Китайське море" imagePath="Images\Rivers\mekong.jpg"/>
+		<River name="Нігер" length="4180" flow="180" area="2117000" flowsInto="Гвінейська затока" imagePath="Images\Rivers\niger.jpg"/>
+		<River name="Маккензі" length="1738" flow="300" area="1805000" flowsInto="Море Бофорта" imagePath="Images\Rivers\mackenzie.jpg"/>
+		<River name="Парана" length="4880" flow="550" area="2580000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\parana.jpg"/>
+		<River name="Волга" length="3530" flow="240" area="1360000" flowsInto="Каспійське море" imagePath="Images\Rivers\volga.jpg"/>
+		<River name="Дунай" length="2860" flow="203" area="817000" flowsInto="Чорне море" imagePath="Images\Rivers\danube.jpg"/>
+		<River name="Інд" length="3180" flow="207" area="1165000" flowsInto="Аравійське море" imagePath="Images\Rivers\indus.jpg"/>
+		<River name="Ганг" length="2525" flow="380" area="907000" flowsInto="Бенгальська затока" imagePath="Images\Rivers\ganges.jpg"/>
+		<River name="Брахмапутра" length="2896" flow="620" area="712000" flowsInto="Бенгальська затока" imagePath="Images\Rivers\brahmaputra.jpg"/>
+		<River name="Замбезі" length="2574" flow="107" area="1390000" flowsInto="Індійський океан" imagePath="Images\Rivers\zambezi.jpg"/>
+		<River name="Оріноко" length="2140" flow="1110" area="880000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\orinoco.jpg"/>
+		<River name="Св. Лаврентія" length="1197" flow="300" area="1030000" flowsInto="Затока Св. Лаврентія" imagePath="Images\Rivers\st_lawrence.jpg"/>
+		<River name="Юкон" length="3190" flow="200" area="832000" flowsInto="Берингове море" imagePath="Images\Rivers\yukon.jpg"/>
+		<River name="Рейн" length="1230" flow="70" area="185000" flowsInto="Північне море" imagePath="Images\Rivers\rhine.jpg"/>
+		<River name="Ельба" length="1094" flow="27" area="148000" flowsInto="Північне море" imagePath="Images\Rivers\elbe.jpg"/>
+		<River name="Вісла" length="1047" flow="34" area="194000" flowsInto="Балтійське море" imagePath="Images\Rivers\vistula.jpg"/>
+		<River name="Одра" length="854" flow="17" area="118000" flowsInto="Балтійське море" imagePath="Images\Rivers\oder.jpg"/>
+		<River name="Сена" length="777" flow="17" area="79000" flowsInto="Ла-Манш" imagePath="Images\Rivers\seine.jpg"/>
+		<River name="Луара" length="1012" flow="26" area="117000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\loire.jpg"/>
+		<River name="Тахо" length="1038" flow="15" area="80600" flowsInto="Атлантичний океан" imagePath="Images\Rivers\tagus.jpg"/>
+		<River name="По" length="652" flow="48" area="74000" flowsInto="Адріатичне море" imagePath="Images\Rivers\po.jpg"/>
+		<River name="Тибр" length="405" flow="7" area="17375" flowsInto="Тірренське море" imagePath="Images\Rivers\tiber.jpg"/>
+		<River name="Темза" length="346" flow="2.4" area="12935" flowsInto="Північне море" imagePath="Images\Rivers\thames.jpg"/>
+		<River name="Колорадо" length="2330" flow="20" area="637000" flowsInto="Каліфорнійська затока" imagePath="Images\Rivers\colorado.jpg"/>
+		<River name="Колумбія" length="2000" flow="230" area="668000" flowsInto="Тихий океан" imagePath="Images\Rivers\columbia.jpg"/>
+		<River name="Мюррей" length="2508" flow="24" area="1061000" flowsInto="Індійський океан" imagePath="Images\Rivers\murray.jpg"/>
+		<River name="Дарлінг" length="1472" flow="3.1" area="609283" flowsInto="Мюррей" imagePath="Images\Rivers\darling.jpg"/>
+		<River name="Дніпро" length="2201" flow="53.5" area="504000" flowsInto="Чорне море" imagePath="Images\Rivers\dnipro.jpg"/>
+		<River name="Дністер" length="1362" flow="10.2" area="72100" flowsInto="Чорне море" imagePath="Images\Rivers\dniester.jpg"/>
+		<River name="Південний Буг" length="806" flow="3.4" area="63700" flowsInto="Чорне море" imagePath="Images\Rivers\southern_bug.jpg"/>
+		<River name="Сіверський Донець" length="1053" flow="5.0" area="98900" flowsInto="Дон" imagePath="Images\Rivers\siverskyi_donets.jpg"/>
+		<River name="Десна" length="1130" flow="11.3" area="88900" flowsInto="Дніпро" imagePath="Images\Rivers\desna.jpg"/>
+		<River name="Прут" length="967" flow="2.4" area="27500" flowsInto="Дунай" imagePath="Images\Rivers\prut.jpg"/>
+		<River name="Тиса" length="966" flow="25" area="156100" flowsInto="Дунай" imagePath="Images\Rivers\tisa.jpg"/>
+		<River name="Західний Буг" length="772" flow="3.4" area="39420" flowsInto="Вісла" imagePath="Images\Rivers\western_bug.jpg"/>
+		<River name="Прип'ять" length="775" flow="14.5" area="114300" flowsInto="Дніпро" imagePath="Images\Rivers\pripyat.jpg"/>
+		<River name="Горинь" length="659" flow="2.8" area="27700" flowsInto="Прип'ять" imagePath="Images\Rivers\horyn.jpg"/>
+		<River name="Інгулець" length="549" flow="0.3" area="14870" flowsInto="Дніпро" imagePath="Images\Rivers\inhulets.jpg"/>
+		<River name="Ворскла" length="464" flow="1.1" area="14700" flowsInto="Дніпро" imagePath="Images\Rivers\vorskla.jpg"/>
+		<River name="Псел" length="717" flow="1.8" area="22800" flowsInto="Дніпро" imagePath="Images\Rivers\psel.jpg"/>
+		<River name="Євфрат" length="2800" flow="35.6" area="500000" flowsInto="Шатт-ель-Араб" imagePath="Images\Rivers\euphrates.jpg"/>
+		<River name="Тігр" length="1850" flow="42.0" area="375000" flowsInto="Шатт-ель-Араб" imagePath="Images\Rivers\tigris.jpg"/>
+		<River name="Амудар'я" length="2540" flow="79.0" area="309000" flowsInto="Аральське море" imagePath="Images\Rivers\amu_darya.jpg"/>
+		<River name="Сирдар'я" length="2212" flow="37.0" area="219000" flowsInto="Аральське море" imagePath="Images\Rivers\syr_darya.jpg"/>
+		<River name="Урал" length="2428" flow="11.6" area="231000" flowsInto="Каспійське море" imagePath="Images\Rivers\ural.jpg"/>
+		<River name="Печора" length="1809" flow="130" area="322000" flowsInto="Баренцове море" imagePath="Images\Rivers\pechora.jpg"/>
+		<River name="Колима" length="2129" flow="123" area="643000" flowsInto="Східносибірське море" imagePath="Images\Rivers\kolyma.jpg"/>
+		<River name="Індигірка" length="1726" flow="58.3" area="360000" flowsInto="Східносибірське море" imagePath="Images\Rivers\indigirka.jpg"/>
+		<River name="Оленьок" length="2292" flow="38.0" area="219000" flowsInto="Море Лаптєвих" imagePath="Images\Rivers\olenyok.jpg"/>
+		<River name="Анадир" length="1150" flow="53.0" area="191000" flowsInto="Берингове море" imagePath="Images\Rivers\anadyr.jpg"/>
+		<River name="Іраваді" length="2170" flow="410" area="411000" flowsInto="Андаманське море" imagePath="Images\Rivers\irrawaddy.jpg"/>
+		<River name="Салуїн" length="2815" flow="157" area="324000" flowsInto="Андаманське море" imagePath="Images\Rivers\salween.jpg"/>
+		<River name="Чао Прая" length="372" flow="27.0" area="160000" flowsInto="Сіамська затока" imagePath="Images\Rivers\chao_phraya.jpg"/>
+		<River name="Лімпопо" length="1750" flow="5.3" area="415000" flowsInto="Індійський океан" imagePath="Images\Rivers\limpopo.jpg"/>
+		<River name="Оранжева" length="2200" flow="11.5" area="973000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\orange.jpg"/>
+		<River name="Сенегал" length="1790" flow="22.0" area="419000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\senegal.jpg"/>
+		<River name="Гамбія" length="1120" flow="5.0" area="77000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\gambia.jpg"/>
+		<River name="Рона" length="812" flow="53.0" area="95500" flowsInto="Середземне море" imagePath="Images\Rivers\rhone.jpg"/>
+		<River name="Ебро" length="910" flow="13.5" area="85362" flowsInto="Середземне море" imagePath="Images\Rivers\ebro.jpg"/>
+		<River name="Гвадалківір" length="657" flow="5.1" area="57000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\guadalquivir.jpg"/>
+		<River name="Гаронна" length="647" flow="22.0" area="56000" flowsInto="Біскайська затока" imagePath="Images\Rivers\garonne.jpg"/>
+		<River name="Маас" length="925" flow="11.0" area="36000" flowsInto="Північне море" imagePath="Images\Rivers\meuse.jpg"/>
+		<River name="Північна Двіна" length="744" flow="110" area="357000" flowsInto="Біле море" imagePath="Images\Rivers\northern_dvina.jpg"/>
+		<River name="Нева" length="74" flow="79.0" area="281000" flowsInto="Балтійське море" imagePath="Images\Rivers\neva.jpg"/>
+		<River name="Німан" length="937" flow="21.4" area="98200" flowsInto="Балтійське море" imagePath="Images\Rivers\niemen.jpg"/>
+		<River name="Даугава" length="1020" flow="21.0" area="87900" flowsInto="Балтійське море" imagePath="Images\Rivers\daugava.jpg"/>
+		<River name="Ріо-Гранде" length="3051" flow="5.7" area="472000" flowsInto="Мексиканська затока" imagePath="Images\Rivers\rio_grande.jpg"/>
+		<River name="Сан-Франсиску" length="2830" flow="91.5" area="641000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\sao_francisco.jpg"/>
+		<River name="Токантінс" length="2640" flow="373" area="358000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\tocantins.jpg"/>
+		<River name="Колорадо (Аргентина)" length="1114" flow="4.6" area="35000" flowsInto="Атлантичний океан" imagePath="Images\Rivers\colorado_argentina.jpg"/>
+		<River name="Ангара" length="1779" flow="142" area="1040000" flowsInto="Єнісей" flowsFrom="Байкал" imagePath="Images\Rivers\angara.jpg"/>
+	</Rivers>
+	<Seas>
+		<Sea name="Чорне море" area="422000" avgDepth="1240" maxDepth="2212" imagePath="Images\Seas\black_sea.jpg"/>
+		<Sea name="Азовське море" area="39000" avgDepth="7" maxDepth="14" imagePath="Images\Seas\azov_sea.jpg"/>
+		<Sea name="Середземне море" area="2500000" avgDepth="1500" maxDepth="5267" imagePath="Images\Seas\mediterranean_sea.jpg"/>
+		<Sea name="Балтійське море" area="377000" avgDepth="55" maxDepth="459" imagePath="Images\Seas\baltic_sea.jpg"/>
+		<Sea name="Червоне море" area="438000" avgDepth="491" maxDepth="3040" imagePath="Images\Seas\red_sea.jpg"/>
+		<Sea name="Карибське море" area="2754000" avgDepth="2200" maxDepth="7686" imagePath="Images\Seas\caribbean_sea.jpg"/>
+		<Sea name="Північне море" area="575000" avgDepth="95" maxDepth="700" imagePath="Images\Seas\north_sea.jpg"/>
+		<Sea name="Японське море" area="978000" avgDepth="1752" maxDepth="3742" imagePath="Images\Seas\japan_sea.jpg"/>
+		<Sea name="Охотське море" area="1583000" avgDepth="859" maxDepth="3916" imagePath="Images\Seas\okhotsk_sea.jpg"/>
+		<Sea name="Берингове море" area="2315000" avgDepth="1640" maxDepth="4151" imagePath="Images\Seas\bering_sea.jpg"/>
+		<Sea name="Аравійське море" area="3862000" avgDepth="2734" maxDepth="5803" imagePath="Images\Seas\arabian_sea.jpg"/>
+		<Sea name="Саргасове море" area="3100000" avgDepth="1500" maxDepth="7000" imagePath="Images\Seas\sargasso_sea.jpg"/>
+	</Seas>
+	<Lakes>
+		<Lake name="Каспійське море" area="371000" avgDepth="211" maxDepth="1025" imagePath="Images\Lakes\caspian_sea.jpg"/>
+		<Lake name="Байкал" area="31722" avgDepth="744" maxDepth="1642" imagePath="Images\Lakes\baikal.jpg"/>
+		<Lake name="Верхнє" area="82414" avgDepth="149" maxDepth="406" imagePath="Images\Lakes\superior.jpg"/>
+		<Lake name="Вікторія" area="68870" avgDepth="40" maxDepth="84" imagePath="Images\Lakes\victoria.jpg"/>
+		<Lake name="Гурон" area="59596" avgDepth="59" maxDepth="229" imagePath="Images\Lakes\huron.jpg"/>
+		<Lake name="Мічиган" area="57800" avgDepth="85" maxDepth="281" imagePath="Images\Lakes\michigan.jpg"/>
+		<Lake name="Танганьїка" area="32893" avgDepth="570" maxDepth="1470" imagePath="Images\Lakes\tanganyika.jpg"/>
+		<Lake name="Велике Ведмеже" area="31153" avgDepth="72" maxDepth="446" imagePath="Images\Lakes\great_bear.jpg"/>
+		<Lake name="Ньяса" area="29600" avgDepth="292" maxDepth="706" imagePath="Images\Lakes\nyasa.jpg"/>
+		<Lake name="Ері" area="25700" avgDepth="19" maxDepth="64" imagePath="Images\Lakes\erie.jpg"/>
+		<Lake name="Онтаріо" area="19477" avgDepth="86" maxDepth="244" imagePath="Images\Lakes\ontario.jpg"/>
+		<Lake name="Світязь" area="27" avgDepth="7" maxDepth="58" imagePath="Images\Lakes\svityaz.jpg"/>
+		<Lake name="Синевир" area="0.07" avgDepth="8" maxDepth="22" imagePath="Images\Lakes\synevyr.jpg"/>
+	</Lakes>
+</Hydrologist>

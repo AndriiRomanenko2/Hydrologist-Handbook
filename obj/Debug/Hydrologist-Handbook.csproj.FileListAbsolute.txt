@@ -1,0 +1,12 @@
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Debug\Hydrologist-Handbook.exe.config
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Debug\Hydrologist-Handbook.exe
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Debug\Hydrologist-Handbook.pdb
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.csproj.AssemblyReference.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.csproj.CoreCompileInputs.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.exe
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.pdb
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.exe.config
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist_Handbook.MainForm.resources
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist-Handbook.csproj.GenerateResource.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Debug\Bodies_of_water.xml
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Debug\Hydrologist_Handbook.RedactForm.resources

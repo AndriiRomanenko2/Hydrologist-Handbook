@@ -1,0 +1,11 @@
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Release\Bodies_of_water.xml
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Release\Hydrologist-Handbook.exe.config
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Release\Hydrologist-Handbook.exe
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\bin\Release\Hydrologist-Handbook.pdb
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.csproj.AssemblyReference.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist_Handbook.MainForm.resources
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist_Handbook.RedactForm.resources
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.csproj.GenerateResource.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.csproj.CoreCompileInputs.cache
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.exe
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.pdb
