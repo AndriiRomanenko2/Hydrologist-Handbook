@@ -9,3 +9,4 @@ E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist
 E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.csproj.CoreCompileInputs.cache
 E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.exe
 E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.pdb
+E:\All\OOP-CourseProject\VS_Project\Hydrologist-Handbook\obj\Release\Hydrologist-Handbook.exe.config
