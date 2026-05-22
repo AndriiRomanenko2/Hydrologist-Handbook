@@ -19,6 +19,10 @@ namespace Hydrologist_Handbook
         private string _selectedImagePath = "";
 
         public BodyOfWater ResultObject{ get; private set; }
+        //For newely added images that weren't saved yet(so we can delete them if they won't be saved)
+        public string CreatedImagePath { get; private set; }
+        //For changed images that weren't save, so we won't apply that change and delete the remaining image
+        public bool ImageChanged { get; private set; } = false;
 
         //Adding
         public RedactForm(DataManager dataManager)
@@ -275,6 +279,7 @@ namespace Hydrologist_Handbook
                                     ComboBox_ObjectType.SelectedIndex == 1 ? "Lakes" : "Seas";
                 string relativePath = CopyImageToProject(_selectedImagePath, objectType, TextBox_Name.Text.Trim());
                 ResultObject.ImagePath = relativePath;
+                CreatedImagePath = relativePath;
             }
             else if (_editingObject != null)
             {
@@ -304,6 +309,7 @@ namespace Hydrologist_Handbook
                 _selectedImagePath = dialog.FileName;
                 Label_ImagePath.Text = Path.GetFileName(_selectedImagePath);
                 LoadPreview(_selectedImagePath);
+                ImageChanged = true;
             }
         }
 

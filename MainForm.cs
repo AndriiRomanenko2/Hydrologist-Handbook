@@ -18,7 +18,10 @@ namespace Hydrologist_Handbook
         private bool isDirty = false; //If the changes were saved or not
 
         //Files will be deleted after the deltion process was cofirmed and saved
-        private List<string> filesToDelete = new List<string>(); 
+        private List<string> filesToDelete = new List<string>();
+
+        //For cases when user adds an image to a new item, but doesn't save the item so the image needs to be deleted
+        private List<string> newImagesToDelete = new List<string>();
 
         public MainForm()
         {
@@ -72,6 +75,7 @@ namespace Hydrologist_Handbook
             return true; // Змін немає або користувач відмовився зберігати
         }
 
+        //When the application is closing. If any change was unsaved, ask if the user is willing to
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (isDirty)
@@ -84,8 +88,24 @@ namespace Hydrologist_Handbook
                 else if (result == DialogResult.Cancel)
                 {
                     e.Cancel = true;
+                    return;
+                }
+                else
+                {
+                    DeleteTemporaryImages();
                 }
             }
+        }
+
+        //Delete images that were added but weren't saved
+        private void DeleteTemporaryImages()
+        {
+            foreach (string path in newImagesToDelete)
+            {
+                string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..", path);
+                if (File.Exists(fullPath)) File.Delete(fullPath);
+            }
+            newImagesToDelete.Clear();
         }
 
         private void SetupListView()
@@ -386,6 +406,13 @@ namespace Hydrologist_Handbook
             {
                 if (form.ShowDialog() != DialogResult.OK) return;
 
+                // If a new image is added, save a path to it, 
+                // if user don't save the changed file - remove the added images
+                if (!string.IsNullOrEmpty(form.CreatedImagePath))
+                {
+                    newImagesToDelete.Add(form.CreatedImagePath);
+                }
+
                 if (form.ResultObject is River river)
                     dataManager.Rivers.Add(river);
                 else if (form.ResultObject is Lake lake)
@@ -414,6 +441,11 @@ namespace Hydrologist_Handbook
             {
                 if (form.ShowDialog() == DialogResult.OK)
                 {
+                    if (form.ImageChanged && !string.IsNullOrEmpty(form.CreatedImagePath))
+                    {
+                        newImagesToDelete.Add(form.CreatedImagePath);
+                    }
+
                     dataManager.RebuildLinks();
                     MarkAsChanged();
                     PopulateList();
@@ -471,6 +503,8 @@ namespace Hydrologist_Handbook
                 {
                     dataPath = sfd.FileName;
                     dataManager.Save(dataPath);
+
+                    newImagesToDelete.Clear();
 
                     // After confirmed save delete physical items
                     foreach (string path in filesToDelete)
