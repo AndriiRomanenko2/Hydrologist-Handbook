@@ -17,6 +17,9 @@ namespace Hydrologist_Handbook
         private string dataPath;
         private bool isDirty = false; //If the changes were saved or not
 
+        //Files will be deleted after the deltion process was cofirmed and saved
+        private List<string> filesToDelete = new List<string>(); 
+
         public MainForm()
         {
             InitializeComponent();
@@ -433,6 +436,15 @@ namespace Hydrologist_Handbook
                 MessageBoxButtons.YesNo
             );
 
+            if (!string.IsNullOrEmpty(obj.ImagePath))
+            {
+                string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..", obj.ImagePath);
+                if (File.Exists(fullPath))
+                {
+                    filesToDelete.Add(fullPath);
+                }
+            }
+
             if (confirm != DialogResult.Yes) return;
 
             if (obj is River river)
@@ -459,6 +471,17 @@ namespace Hydrologist_Handbook
                 {
                     dataPath = sfd.FileName;
                     dataManager.Save(dataPath);
+
+                    // After confirmed save delete physical items
+                    foreach (string path in filesToDelete)
+                    {
+                        if (File.Exists(path))
+                        {
+                            try { File.Delete(path); } catch { }
+                        }
+                    }
+                    filesToDelete.Clear();
+
                     isDirty = false;
                     this.Text = "Hydrologist Handbook";
                     MessageBox.Show("Дані успішно збережено!");
