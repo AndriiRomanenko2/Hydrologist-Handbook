@@ -148,9 +148,9 @@
             // 
             this.Button_SubmitRedact.Location = new System.Drawing.Point(15, 476);
             this.Button_SubmitRedact.Name = "Button_SubmitRedact";
-            this.Button_SubmitRedact.Size = new System.Drawing.Size(75, 23);
+            this.Button_SubmitRedact.Size = new System.Drawing.Size(87, 23);
             this.Button_SubmitRedact.TabIndex = 11;
-            this.Button_SubmitRedact.Text = "Submit";
+            this.Button_SubmitRedact.Text = "Підтвердити";
             this.Button_SubmitRedact.UseVisualStyleBackColor = true;
             // 
             // Button_CancelRedact
@@ -159,7 +159,7 @@
             this.Button_CancelRedact.Name = "Button_CancelRedact";
             this.Button_CancelRedact.Size = new System.Drawing.Size(75, 23);
             this.Button_CancelRedact.TabIndex = 12;
-            this.Button_CancelRedact.Text = "Cancel";
+            this.Button_CancelRedact.Text = "Скасувати";
             this.Button_CancelRedact.UseVisualStyleBackColor = true;
             // 
             // Label_ObjectType
